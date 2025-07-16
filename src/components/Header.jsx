@@ -17,7 +17,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <Briefcase className="h-8 w-8 text-blue-600" />
+            <img src="/logo.png" alt="Vertex Logo" className="h-8 w-8" />
             <span className="text-2xl font-bold text-gray-900">Vertex</span>
           </Link>
 
