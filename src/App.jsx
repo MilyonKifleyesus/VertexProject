@@ -7,6 +7,7 @@ import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import Home from "./pages/Home.jsx";
 import Login from "./pages/auth/Login.jsx";
 import Register from "./pages/auth/Register.jsx";
+import SignUp from "./pages/SignUp.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import JobListings from "./pages/jobs/JobListings.jsx";
 import PostJob from "./pages/jobs/PostJob.jsx";
@@ -23,6 +24,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/auth/login" element={<Login />} />
               <Route path="/auth/register" element={<Register />} />
+              <Route path="/signup" element={<SignUp />} />
               <Route path="/jobs" element={<JobListings />} />
               <Route path="/job/:id" element={<ViewJob />} />
               <Route
